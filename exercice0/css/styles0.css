@@ -1,0 +1,36 @@
+.conteneur {
+  display: inline-block;
+  margin: 20px;
+}
+
+.conteneur div {
+  background-color: lightgreen;
+  border: 1px solid #333;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+
+.grille1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr); 
+  gap: 5px;
+}
+
+
+.grille2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;    
+  grid-template-rows: repeat(3, 1fr); 
+  gap: 5px;
+}
+
+
+.grille3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;       
+  grid-template-rows: 2fr 1fr 1fr;
+  gap: 5px;
+}
